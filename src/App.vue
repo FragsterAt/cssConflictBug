@@ -19,9 +19,9 @@ import TheWelcome from './components/TheWelcome.vue'
 
 <style scoped lang="sass">
 .wrapper
-  :deep(.greetings)
+  .greetings
     @apply top-0.5 left-0.5
-  :deep(.green)
+  .green
     @apply top-px left-px right-px bottom-px
     // } // remove this bracket - and there is no bug
 
